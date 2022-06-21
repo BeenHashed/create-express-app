@@ -1,8 +1,17 @@
 # Create-Express-App
 Create an express application without setting it up yourself
 
-## Overview 
+## Note
 **There isn't an npm package at the time of creation but it will be created soon.**
+If you still want to try it out
+```bash
+git clone https://github.com/BeenHashed/create-express-app.git
+cd create-express-app
+npm link
+create-express-app my-app
+```
+## Overview
+
 ```
 npx create-express-app my-app
 ```
