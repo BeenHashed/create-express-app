@@ -1,0 +1,38 @@
+# Have Three templates to choose from using "-t":   --DONE--
+     $ MVC (Default), 
+        -- Controllres
+        -- models
+        -- routes
+        -- views
+        -index.js
+    $ EJS MVC
+        -- Controllers
+        -- models
+        -- routes
+        -- views | EJS FIles
+        -index.js
+    $ EJS
+        -- views
+        -index.js
+    $ None
+        -index.js
+
+# Being able to add new folders with "-a {extra folders}" --DONE--
+    @ E.Gs
+        -a middleware 
+        -a logging views
+    
+# Being able to add files in the root directory with "-f {extra file names}" --DONE--
+    @ E.Gs
+        -f logger.js 
+        -f example1.js example2.js'
+
+
+# Being able to install extra packages with "-i {packages}"
+    @ E.Gs
+        -i lodash 
+        -i moment mongoose 
+
+# If there are no args and just a period (.) is provided, we'll put the files in the directory they are in
+
+
